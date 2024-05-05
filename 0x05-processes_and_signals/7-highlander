@@ -1,9 +1,3 @@
-#!/bin/bash
-
-trap 'kill $(pgrep 7-highlander)' SIGTERM
-
-while true; do
-    echo "To infinity and beyond indefinitely"
-    sleep 2
-done
-
+#!/usr/bin/env bash
+#kills the To infinity and beyond indefinitely infiniy loop.
+pkill -f 7-highlander
