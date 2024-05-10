@@ -1,7 +1,1 @@
-shell redirecton project
-
-
-this is a push  test
-
-testing ......
-
+0x07-networking_basics
