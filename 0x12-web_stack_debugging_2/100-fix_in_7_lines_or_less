@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Ensure Nginx runs as user "nginx"
-
 pkill apache2
 chown -R nginx:nginx /etc/nginx
 chmod 770 /etc/nginx/nginx.conf
